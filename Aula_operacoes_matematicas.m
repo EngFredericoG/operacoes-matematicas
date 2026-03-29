@@ -1,28 +1,30 @@
 clc
 clear all;
 close all;
-% operações matemáticas
+% operaï¿½ï¿½es matemï¿½ticas
 %% Aula 9
 % soma
 a = 2;
 b = 4;
 c = a+b;
-%Subtração
+%Subtraï¿½ï¿½o
 d = a-b;
-%Multiplicação
+%Multiplicaï¿½ï¿½o
 e = a*b;
-%Divisão
+%Divisï¿½o
 f = b/a;
 f = b\a; % = a/b
 %Raiz quadrada
 g = sqrt(b);
-%Potência
+%Potï¿½ncia
 h = b^a;
+% teste
+
 
 %% Aula 10
 %Exponencial
 i = exp(a);
-%Módulo
+%Mï¿½dulo
 abs(a);
 %Logaritmo
 j = log10(2)%base 10
@@ -31,11 +33,11 @@ j = log(2)%base e
 %Arredondamento
 round(3.7);%pega o inteiro
 ceil(3.7); % aproxima o valor
-% máximo divisor comum
+% mï¿½ximo divisor comum
 gcd(4,10)
 % minimo multiplo comum
 lcm(2,15)
-%resto divisão
+%resto divisï¿½o
 D = rem(4,3)
 
 %% Aula 11
@@ -56,7 +58,7 @@ csc(2)
 asin(2)
 acos(2)
 acot(2);
-%Hiperbólico
+%Hiperbï¿½lico
 sinh(2)
 cosh(2)
 %Criar vetor
@@ -70,9 +72,9 @@ length(t);
 M = [1 2 3; 3 4 5; 5 7 7]
 N = [1,2,3;3,4,5];
 N = [1;2;3;4;5]
-size(N)             %Dimensão da matriz
+size(N)             %Dimensï¿½o da matriz
 size(N,1)           %Numero de linhas
-length(N)           %Maior dimensão
+length(N)           %Maior dimensï¿½o
 size(N,2)           %Numero de colunas
 %Matriz zeros
 N = zeros(1,3)
@@ -92,9 +94,9 @@ A = [1 5;1 2]
 B = [1 3;1 5]
 %soma
 C= A+B
-%Subtração
+%Subtraï¿½ï¿½o
 C=A-B
-%Multiplicação
+%Multiplicaï¿½ï¿½o
 C = A*B
 %Determinante
 D = det(A)
